@@ -14,7 +14,7 @@ namespace AntiForgeryMiddleware
         private readonly string[] _httpMethods;
 
         /// <summary>
-        /// Enable Antiforgery Token to be set for AJAX requests using using Header only HTTP Methods
+        /// Enable Antiforgery Token to be set for AJAX requests using Header only HTTP Methods
         /// </summary>
         /// <param name="next">Middleware Request Delegate</param>
         /// <param name="requestTokenCookieName">The name to apply to the HttpCookie for use with Ajax Requests</param>
@@ -26,7 +26,7 @@ namespace AntiForgeryMiddleware
         }
 
         /// <summary>
-        /// Enable Antiforgery Token to be set for AJAX requests using using specified Http Methods
+        /// Enable Antiforgery Token to be set for AJAX requests using specified Http Methods
         /// </summary>
         /// <param name="next">Middleware Request Delegate</param>
         /// <param name="requestTokenCookieName">The name to apply to the HttpCookie for use with Ajax Requests</param>
